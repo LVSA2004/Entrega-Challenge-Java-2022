@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fiap.PrimaryController">
+   <children>
+      <ImageView fitHeight="180.0" fitWidth="195.0" layoutX="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo%20ECHO%20Tech.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="135.0" layoutY="144.0" mnemonicParsing="false" onAction="#loginCandidato" text="Login Candidato" />
+      <Button layoutX="137.0" layoutY="226.0" mnemonicParsing="false" onAction="#loginAvaliador" text="Login Avaliador" />
+      <Button layoutX="131.0" layoutY="188.0" mnemonicParsing="false" onAction="#loginFuncionario" text="Login Funcionário" />
+      <Button layoutX="124.0" layoutY="268.0" mnemonicParsing="false" onAction="#loginAdministrador" text="Login Administrador" />
+      <Button layoutX="373.0" layoutY="144.0" mnemonicParsing="false" onAction="#cadastrarCandidato" text="Cadastro Candidato" />
+      <Button layoutX="369.0" layoutY="188.0" mnemonicParsing="false" onAction="#cadastrarFuncionario" text="Cadastro Funcionário" />
+      <Button layoutX="375.0" layoutY="226.0" mnemonicParsing="false" onAction="#cadastrarAvaliador" text="Cadastro Avaliador" />
+      <Button layoutX="362.0" layoutY="268.0" mnemonicParsing="false" onAction="#cadastrarAdministrador" text="Cadastro Administrador" />
+   </children>
+</AnchorPane>

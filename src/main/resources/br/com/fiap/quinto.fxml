@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fiap.QuintoController">
+   <children>
+      <Button layoutX="273.0" layoutY="325.0" mnemonicParsing="false" onAction="#VoltaraoMenu" text="Voltar ao Menu Principal" />
+      <Button layoutX="171.0" layoutY="325.0" mnemonicParsing="false" onAction="#ConcluirCadastroAdministrador" text="Cadastrar " />
+      <ImageView fitHeight="127.0" fitWidth="125.0" layoutX="36.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Simbolo%20ECHO%20Tech.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="161.0" layoutY="128.0" text="Nome Completo" />
+      <Label layoutX="188.0" layoutY="179.0" prefHeight="17.0" prefWidth="34.0" text="E-mail" />
+      <Label layoutX="190.0" layoutY="231.0" text="Login" />
+      <Label layoutX="188.0" layoutY="283.0" text="Senha" />
+      <TextField fx:id="NomeCompleto" layoutX="272.0" layoutY="124.0" />
+      <TextField fx:id="Email" layoutX="272.0" layoutY="175.0" />
+      <TextField fx:id="LoginAdm" layoutX="272.0" layoutY="227.0" />
+      <TextField fx:id="SenhaAdm" layoutX="272.0" layoutY="279.0" />
+      <Label layoutX="143.0" layoutY="43.0" text="Cadastro Administrador">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

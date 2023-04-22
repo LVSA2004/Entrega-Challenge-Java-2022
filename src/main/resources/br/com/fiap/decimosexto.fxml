@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fiap.DecimoSextoController">
+   <children>
+      <Button layoutX="154.0" layoutY="322.0" mnemonicParsing="false" onAction="#ConcluirCadastroEmp" prefHeight="17.0" prefWidth="67.0" text="Cadastrar" />
+      <Button layoutX="293.0" layoutY="322.0" mnemonicParsing="false" onAction="#VoltaraoMenu" text="Voltar a Página do Funcionário" />
+      <ImageView fitHeight="117.0" fitWidth="105.0" layoutX="97.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Simbolo%20ECHO%20Tech.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="187.0" layoutY="30.0" text="Cadastro de Empresas">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="99.0" text="Nome Fantasia" />
+      <Label layoutX="124.0" layoutY="171.0" text="E-mail" />
+      <Label layoutX="86.0" layoutY="132.0" text="Telefone de Contato" />
+      <Label layoutX="127.0" layoutY="205.0" text="CNPJ" />
+      <Label layoutX="77.0" layoutY="244.0" text="Seguimento Empresarial" />
+      <Label layoutX="115.0" layoutY="282.0" text="Descrição" />
+      <TextField fx:id="TelefoneEmp" layoutX="256.0" layoutY="128.0" />
+      <TextField fx:id="EmailEmp" layoutX="256.0" layoutY="167.0" />
+      <TextField fx:id="Cnpj" layoutX="256.0" layoutY="201.0" />
+      <TextField fx:id="SeguimentoEmpresarial" layoutX="256.0" layoutY="240.0" />
+      <TextField fx:id="DescricaoEmp" layoutX="256.0" layoutY="278.0" />
+      <TextField fx:id="NomeEmp" layoutX="256.0" layoutY="95.0" />
+   </children>
+</AnchorPane>

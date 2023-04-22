@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fiap.SecondaryController">
+   <children>
+      <Label layoutX="76.0" layoutY="88.0" text="Nome Completo" />
+      <TextField fx:id="NomeCompleto" layoutX="202.0" layoutY="84.0" />
+      <TextField fx:id="Telefone" layoutX="202.0" layoutY="132.0" />
+      <TextField fx:id="Email" layoutX="202.0" layoutY="176.0" />
+      <TextField fx:id="Endereco" layoutX="202.0" layoutY="218.0" />
+      <Label layoutX="97.0" layoutY="136.0" text="Telefone" />
+      <Label layoutX="102.0" layoutY="180.0" text="E-mail" />
+      <Label layoutX="95.0" layoutY="222.0" text="Endereço" />
+      <Label layoutX="67.0" layoutY="260.0" text="Data de nascimento" />
+      <Label layoutX="105.0" layoutY="301.0" text="Login" />
+      <Label layoutX="103.0" layoutY="345.0" text="Senha" />
+      <TextField fx:id="DataDeNascimento" layoutX="202.0" layoutY="256.0" />
+      <TextField fx:id="LoginCandidato" layoutX="202.0" layoutY="297.0" />
+      <TextField fx:id="SenhaCandidato" layoutX="202.0" layoutY="341.0" />
+      <Button layoutX="402.0" layoutY="218.0" minWidth="150.0" mnemonicParsing="false" onAction="#VoltaraoMenu" text="Voltar ao Menu Principal" />
+      <ImageView fitHeight="110.0" fitWidth="106.0" layoutX="112.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Simbolo%20ECHO%20Tech.png" />
+         </image></ImageView>
+      <Button layoutX="402.0" layoutY="176.0" minWidth="150.0" mnemonicParsing="false" onAction="#ConcluirCadastroCandidato" text="Cadastrar" />
+      <Label layoutX="198.0" layoutY="35.0" text="Cadastro Candidato">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

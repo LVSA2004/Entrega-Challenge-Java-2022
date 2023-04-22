@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fiap.QuarternaryController">
+   <children>
+      <Button layoutX="99.0" layoutY="324.0" minWidth="150.0" mnemonicParsing="false" onAction="#ConcluirCadastroAvaliador" text="Cadastrar Avaliador" />
+      <Label layoutX="131.0" layoutY="103.0" text="Nome" />
+      <Label layoutX="130.0" layoutY="148.0" text="E-mail" />
+      <Label layoutX="91.0" layoutY="192.0" text="Empresa Contratante" />
+      <Label layoutX="132.0" layoutY="240.0" text="Login" />
+      <Label layoutX="130.0" layoutY="282.0" text="Senha" />
+      <TextField fx:id="NomeCompleto" layoutX="287.0" layoutY="99.0" />
+      <TextField fx:id="Email" layoutX="287.0" layoutY="144.0" />
+      <TextField fx:id="LoginAvaliador" layoutX="287.0" layoutY="236.0" />
+      <TextField fx:id="EmpresaContratante" layoutX="287.0" layoutY="188.0" />
+      <TextField fx:id="SenhaAvaliador" layoutX="287.0" layoutY="278.0" />
+      <ImageView fitHeight="131.0" fitWidth="132.0" layoutX="54.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Simbolo%20ECHO%20Tech.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="349.0" layoutY="324.0" mnemonicParsing="false" onAction="#VoltaraoMenu" text="Voltar ao Menu Principal" />
+      <Label layoutX="166.0" layoutY="33.0" text="Cadastro Avaliador">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
